@@ -1,2 +1,3 @@
 # SolarWinds-safe-space
-SWQL corner for widgets 
+
+My reposity of swql queries for use in SW Observability Modern Dashboards
