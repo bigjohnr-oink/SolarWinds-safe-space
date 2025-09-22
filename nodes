@@ -1,0 +1,4 @@
+SELECT Nodes.NodeID
+,Nodes.MachineType
+FROM Orion.Nodes Nodes
+WHERE Nodes.NodeID IS NOT NULL
