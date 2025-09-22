@@ -1,4 +1,5 @@
-SELECT Nodes.NodeID
+SELECT COUNT(Nodes.NodeID) AS [Node Count]
 ,Nodes.MachineType
 FROM Orion.Nodes Nodes
 WHERE Nodes.NodeID IS NOT NULL
+GROUP BY NodeID,MachineType
